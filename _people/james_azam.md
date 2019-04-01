@@ -1,7 +1,7 @@
 ---
-name: First name
-surname: Surname
-github: GitHub handle
+name: James
+surname: Azam
+github: jamesmbaazam
 theme: 
 topic: 
 ---
