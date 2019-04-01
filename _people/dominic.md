@@ -1,5 +1,5 @@
 name: Emanuel
 surname: Dominic
 github: EMDominic
-theme: Age Mixing
-topic: Sexual age mixing and the spread of HIV
+theme: Combatting infections of national priority
+topic: Effect of population structures on transmission risk
