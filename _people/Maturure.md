@@ -1,7 +1,7 @@
 ------------
 name: Perceval
 surname: Maturure
-github: GitHub handle
+github: percymaturure
 theme: 
 topic: 
 -------
