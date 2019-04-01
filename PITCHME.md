@@ -5,10 +5,16 @@ _2019-04-01_
 
 ---
 ## What is version control?
+---
+## What is version control?
 
+"...the management of changes to documents, computer programs, large web sites, and other collections of information." ~ Wikipedia, [Version control](https://en.wikipedia.org/wiki/Version_control)
+---
+## What is git?
 ---
 ## What is git?
 
+"...a distributed version-control system for tracking changes in source code during software development." ~ Wikipedia, [Git](https://en.wikipedia.org/wiki/Git)
 ---
 ## Benefits of using git
 
@@ -22,22 +28,25 @@ _2019-04-01_
 ---
 ## Today
 
-> **Focus**: working on your own, including on multiple devices
-
-### Getting started on GitHub
-### Git basics
-### "Gitting" help
-### Don't panic! (resolving conflicts)
-### What is git (not) good for?
-### Next time: working with branches
+> **Focus**: working on your own, including across devices
+---
+## Getting started on GitHub
 ---
 ## Git basics
 
 - git init
-- git clone
+- git clone [repository]
 - git add [file]
 - git commit -m '[descriptive message]'
 - git pull
 - git push
 - git status
 - git diff
+---
+### "Gitting" help
+---
+### Don't panic! (resolving conflicts)
+---
+### What is git (not) good for?
+---
+### Next time: working with branches
