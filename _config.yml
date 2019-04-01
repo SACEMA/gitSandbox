@@ -3,10 +3,17 @@ highlighter: rouge
 collections:
   people:
     output: false
+  interfaces:
+    output: false
 defaults:
   - scope:
       path: ""
       type: people
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: interfaces
     values:
       layout: page
 exclude:
