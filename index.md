@@ -1,9 +1,12 @@
 ---
 layout: page
-redirect: http://www.sacema.com
-title: This site is currently down.
-summary: We apologize for any inconvenience.
-alerttype: primary
-alertmsg: >
-  Please try again soon.
+title: Git Sandbox
+summary: People attending the intro to git session on 2019-01-04.
 ---
+
+{% for profile in site.people %}
+<div style="font-size:18px">
+<h3> {{ profile.name }} {{ profile.surname }}</h3>
+<p style="font-size:14px"> <strong>{{ profile.theme }}</strong></p><p style="font-size:14px"> <em>{{ profile.topic }}</em></p>
+</div>
+{% endfor %}
