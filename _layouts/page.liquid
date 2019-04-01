@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="fullscreen">
+{%include head.html%}
+  <body>
+	<!-- WRAPPER -->
+	 <div class="wrapper">
+     {%include navbar.html%}
+     {%include header.html%}
+     <!-- PAGE CONTENT -->
+ 		<div class="page-content">
+      {% if page.alertmsg contains "" %}
+      <div class="container" align="left">
+         <div class="alert alert-{{page.alerttype}} alert-dismissible" role="alert">
+           	<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+             {{ page.alertmsg }}
+       </div>
+     </div>
+      {%endif%}
+        <div class="container">
+         {{ content }}
+       </div>
+     </div>
+     <!-- END PAGE CONTENT -->
+         {% include footer.html %}
+    </div>
+    <!-- END WRAPPER -->
+    <!-- JAVASCRIPTS -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  </body>
+</html>

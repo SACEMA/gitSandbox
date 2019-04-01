@@ -1,0 +1,11 @@
+
+<div class="page-header {% if page.tab != "About" %}has-intro{% endif %}">
+  <div class="container">
+    <div class="left pull-left">
+      <h1 class="page-title">{{ page.title }}</h1>
+      {% if page.summary contains "" %}
+        <p class="page-header-intro">{{ page.summary }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
