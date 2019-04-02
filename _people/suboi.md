@@ -6,7 +6,7 @@ surname: Suboi
 
 github: zenabu-suboi
 
-theme: some theme
+theme: 
 
 topic: 
 
