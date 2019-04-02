@@ -1,3 +1,3 @@
 df <- data.frame(a = rnorm(100), b = rnorm(100))
-plot(df, xlab = 'testing git')
+plot(df)
 View(df)
