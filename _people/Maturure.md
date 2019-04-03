@@ -1,7 +1,7 @@
 ------------
 name: Perceval
 surname: Maturure
-github: april fools day
+github: percevalm
 theme:
-topic: 
+topic: Git for deploying django and version control
 -------
