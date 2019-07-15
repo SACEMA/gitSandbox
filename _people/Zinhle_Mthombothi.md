@@ -2,4 +2,4 @@ name: Zinhle
 surname: Mthombothi	
 github: Zinhlem
 theme: Rapid response to emerging threats
-topic: Emerging, zoonotic, and vector-borne infections
+topic: Risk assessment of dengue in South Africa
