@@ -1,20 +1,8 @@
 # Introduction to git and GitHub
 
 _Being a Scientist_  
-_2019-04-01_
+_2019-07-15_
 
----
-## What is version control?
----
-## What is version control?
-
-"...the management of changes to documents, computer programs, large web sites, and other collections of information." ~ Wikipedia, [Version control](https://en.wikipedia.org/wiki/Version_control)
----
-## What is git?
----
-## What is git?
-
-"...a distributed version-control system for tracking changes in source code during software development." ~ Wikipedia, [Git](https://en.wikipedia.org/wiki/Git)
 ---
 ## Benefits of using git
 
@@ -26,27 +14,17 @@ _2019-04-01_
 - Branching: have both working and development versions without duplication
 - Comprehensibility: document changes with helpful comments
 ---
-## Today
+## Last time
 
 > **Focus**: working on your own, including across devices
 ---
-## Getting started on GitHub
----
-## Git basics
+## Today
 
-- git init
-- git clone [repository]
-- git add [file]
-- git commit -m '[descriptive message]'
-- git pull
-- git push
-- git status
-- git diff
+> **Focus**: working on your own or in groups, including across devices
 ---
-### "Gitting" help
----
-### Don't panic! (resolving conflicts)
----
-### What is git (not) good for?
----
-### Next time: working with branches
+## More git commands
+
+- git checkout -b [branch]
+- git branch
+- git branch -d [branch]
+- git merge [branch]
