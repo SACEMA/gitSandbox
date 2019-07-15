@@ -1,7 +1,7 @@
 ---
-name: James
+name: James M.
 surname: Azam
 github: jamesmbaazam
-theme: 
-topic: 
+theme: Rapid response to emerging threats
+topic: Measles outbreak response vaccination strategies for reaching hard-to-reach populations 
 ---
